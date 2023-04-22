@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // I declare my view wants to use the EO!
+    @EnvironmentObject var readingListModel: ReadingListModel
+    
     var body: some View {
         
         TabView {

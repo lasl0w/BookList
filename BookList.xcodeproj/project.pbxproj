@@ -16,6 +16,7 @@
 		F19F5A8529F36E9F0000A98A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5A8429F36E9F0000A98A /* Book.swift */; };
 		F19F5A8729F370DF0000A98A /* AddBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5A8629F370DF0000A98A /* AddBook.swift */; };
 		F19F5A8929F371330000A98A /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5A8829F371330000A98A /* ReadingListView.swift */; };
+		F19F5A8B29F38CF80000A98A /* GenreSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19F5A8A29F38CF80000A98A /* GenreSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F19F5A8429F36E9F0000A98A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		F19F5A8629F370DF0000A98A /* AddBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBook.swift; sourceTree = "<group>"; };
 		F19F5A8829F371330000A98A /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
+		F19F5A8A29F38CF80000A98A /* GenreSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		F19F5A6E29F36C290000A98A /* BookList */ = {
 			isa = PBXGroup;
 			children = (
+				F19F5A6F29F36C290000A98A /* BookListApp.swift */,
 				F19F5A7D29F36CD00000A98A /* Views */,
 				F19F5A7F29F36CED0000A98A /* Models */,
 				F19F5A7E29F36CE10000A98A /* ViewModels */,
@@ -82,10 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				F19F5A7129F36C290000A98A /* ContentView.swift */,
-				F19F5A6F29F36C290000A98A /* BookListApp.swift */,
 				F19F5A8029F36DC00000A98A /* FullView.swift */,
 				F19F5A8229F36DCF0000A98A /* GenreView.swift */,
 				F19F5A8629F370DF0000A98A /* AddBook.swift */,
+				F19F5A8A29F38CF80000A98A /* GenreSection.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				F19F5A8929F371330000A98A /* ReadingListView.swift in Sources */,
 				F19F5A7229F36C290000A98A /* ContentView.swift in Sources */,
 				F19F5A7029F36C290000A98A /* BookListApp.swift in Sources */,
+				F19F5A8B29F38CF80000A98A /* GenreSection.swift in Sources */,
 				F19F5A8729F370DF0000A98A /* AddBook.swift in Sources */,
 				F19F5A8329F36DCF0000A98A /* GenreView.swift in Sources */,
 				F19F5A8529F36E9F0000A98A /* Book.swift in Sources */,

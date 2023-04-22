@@ -21,6 +21,8 @@ class ReadingListModel: ObservableObject {
     }
     
     func getGenres() {
+        var placeholderGenres = ["Action","Fantasy","Horror","Other","Romance","Thriller","Comedy"]
         
+        self.genres = placeholderGenres
     }
 }

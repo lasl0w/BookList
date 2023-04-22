@@ -11,7 +11,9 @@ import SwiftUI
 struct BookListApp: App {
     var body: some Scene {
         WindowGroup {
+            // trigger the EO init() and make available for all child views
             ContentView()
+                .environmentObject(ReadingListModel())
         }
     }
 }
