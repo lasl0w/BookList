@@ -32,7 +32,12 @@ struct FullView: View {
                     }
                 }
             }
+            // deprecated - does not appear to do much in ios16
+            // replaced by .toolbar(.hidden)
+            .navigationBarHidden(true)
         }
+        // deprecated
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
